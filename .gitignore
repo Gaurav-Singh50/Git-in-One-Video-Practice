@@ -1,3 +1,18 @@
 /mylogs.log
 
 /helloworld.log
+
+#to ignore gaurav.log file present anywhere
+gaurav.log
+
+#to ignore gaurav.log file where gitignore is made. It does not ignore gaurav.log file present 
+#in any folder
+/gaurav.log
+
+#it ignpre all files having extesion .log
+*.log
+
+#it ignores folder or directory named gauravlogs
+gauravlogs/
+
+
