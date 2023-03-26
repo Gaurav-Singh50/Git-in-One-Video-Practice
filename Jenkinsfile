@@ -10,9 +10,14 @@ pipeline {
                 echo 'building the application'
             }
         }
-        stage('test') {
+        stage('unit test') {
             steps {
                 echo 'testing the application'
+            }
+        }
+        stage('cucumber test') {
+            steps {
+                echo 'deploying the application'
             }
         }
         stage('deploy') {
