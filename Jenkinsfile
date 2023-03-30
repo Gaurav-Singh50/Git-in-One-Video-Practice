@@ -20,6 +20,11 @@ pipeline {
                 echo 'deploying the application'
             }
         }
+        stage('Pact test') {
+            steps {
+                echo 'deploying the application'
+            }
+        }
         stage('deploy') {
             steps {
                 echo 'deploying the application'
